@@ -20,3 +20,5 @@ License: GNU General Public License (GPL) v2.0
 Redmine page: www.redmine.org/plugins/wiking
 
 Compatibility: Redmine 2.5.x, 2.4.x, 1.4.x, 1.0.x
+
+*This repository is a fork of the official SVN repository at [projects.andriylesyuk.com](http://projects.andriylesyuk.com/projects/wiking/repository)*
