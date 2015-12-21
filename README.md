@@ -1,5 +1,5 @@
 # Redmine WikiNG
-The Wiki: Next Generation plugin (WikiNG) adds some new and useful extentions to Redmine Wiki syntax.
+The Wiki: Next Generation plugin (WikiNG) adds some new and useful extensions to Redmine Wiki syntax.
 
 Among them are:
 
