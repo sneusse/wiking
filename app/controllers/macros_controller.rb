@@ -6,7 +6,7 @@ class MacrosController < ApplicationController
     before_filter :find_macro, :only => [ :edit, :update, :destroy ]
 
     def index
-        @macros = WikiMacro.all(:order => :name)
+        @macros = WikiMacro.all.order(name: :asc)
     end
 
     def new
