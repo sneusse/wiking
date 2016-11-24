@@ -12,9 +12,9 @@ Rails.configuration.to_prepare do
     unless Redmine::WikiFormatting::Textile::Formatter.included_modules.include?(WikingFormatterPatch)
       Redmine::WikiFormatting::Textile::Formatter.send(:include, WikingFormatterPatch)
     end
-    unless Redmine::WikiFormatting::Textile::Helper.included_modules.include?(WikingWikiHelperPatch)
-        Redmine::WikiFormatting::Textile::Helper.send(:include, WikingWikiHelperPatch)
-    end
+    # unless Redmine::WikiFormatting::Textile::Helper.included_modules.include?(WikingWikiHelperPatch)
+    #     Redmine::WikiFormatting::Textile::Helper.send(:include, WikingWikiHelperPatch)
+    # end
     unless Redmine::WikiFormatting::Macros::Definitions.included_modules.include?(WikingMacrosDefinitionsPatch)
         Redmine::WikiFormatting::Macros::Definitions.send(:include, WikingMacrosDefinitionsPatch)
     end
